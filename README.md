@@ -2,7 +2,6 @@
 
 install Dockerker
 
-docker run -d --name ddd-patterns -v patchProject/ddd-pattenrs/:/app -w /app node tail -f /dev/null
+docker-compose up -d --build
 
-npm install
 npm run test
